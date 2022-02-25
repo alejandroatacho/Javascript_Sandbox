@@ -2,6 +2,9 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
+.header {
+  background-color: gold;
+}
 
 .nav_main {
   list-style-type: none;
