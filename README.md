@@ -11,3 +11,5 @@ https://www.youtube.com/watch?v=PkZNo7MFNFg&t=1s
 
 <h2>Continue</h2>
 <p>https://youtu.be/PkZNo7MFNFg?t=2875</p>
+
+<p>https://www.youtube.com/watch?v=nCwQY8inRvU&list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4&index=6</p>

@@ -12,12 +12,28 @@
   </head>
   <body>
     <!-- <h1>Hey</h1> -->
-    <h1>Mozilla is cool</h1>
+    <h1 id="title">Mozilla is cool</h1>
     <img
       src="images/firefox-icon.png"
       alt="The Firefox logo: a flaming fox surrounding the Earth."
     />
-
+    <div>
+      <div>
+        <input type="number" name="value1" id="uniqueID1" value="value" />
+        <input type="number" name="value2" id="uniqueID2" value="value" />
+      </div>
+      <div>
+        <button
+          type="button"
+          id="form_button"
+          type="submit"
+          onclick="myFunction()"
+        >
+          Meow
+        </button>
+      </div>
+      <p id="magic">Output</p>
+    </div>
     <p>At Mozilla, we’re a global community of</p>
 
     <ul>
@@ -42,7 +58,7 @@
       to learn even more about the values and principles that guide the pursuit
       of our mission.
     </p>
-
-    <script src="scripts/main.js"></script>
+    <button type="button" onclick="myFunction()" id="demo">Change user</button>
+    <script src="../style/js/web2.js"></script>
   </body>
 </html>
