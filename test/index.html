@@ -9,6 +9,7 @@
       type="text/css"
     />
     <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <script src="../style/js/web2.js"></script>
   </head>
   <body>
     <!-- <h1>Hey</h1> -->
@@ -18,22 +19,18 @@
       alt="The Firefox logo: a flaming fox surrounding the Earth."
     />
     <div>
-      <div>
-        <input type="number" name="value1" id="uniqueID1" value="value" />
-        <input type="number" name="value2" id="uniqueID2" value="value" />
+      <div style="display: flex; flex-direction: row">
+        <div>
+          <input type="text" id="input1" placeholder="Write in here!" />
+        </div>
+        <div>
+          <input type="text" id="input2" placeholder="Write in here!" />
+        </div>
       </div>
-      <div>
-        <button
-          type="button"
-          id="form_button"
-          type="submit"
-          onclick="myFunction()"
-        >
-          Meow
-        </button>
-      </div>
-      <p id="magic">Output</p>
+      <button onclick="yes()">Click here</button>
+      <p id="output">Change Me</p>
     </div>
+
     <p>At Mozilla, we’re a global community of</p>
 
     <ul>
@@ -58,7 +55,7 @@
       to learn even more about the values and principles that guide the pursuit
       of our mission.
     </p>
-    <button type="button" onclick="myFunction()" id="demo">Change user</button>
+    <!-- <button type="button" onclick="myFunction()" id="demo">Change user</button> -->
     <script src="../style/js/web2.js"></script>
   </body>
 </html>
