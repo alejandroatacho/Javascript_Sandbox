@@ -5,19 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .main_container {
+        width:500px;
+        height:500px;
+        border:1px;
+        border-style: solid;
+        border-color: black;
+        margin: 0 auto;
+        background-image: url("img/Functional_Programming_In_Javascript.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .main_container_parent {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        margin: 0;
+      }
+      .main_container_parent div {
+         padding:15px;
+      }
+      .button_js {
+        width: 100%;
+        max-width:150px;
+        height: 50px;
+        background-color: #4caf50;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        /* padding-left:33.5%; */
+      }
+      .button_js_container {
+        padding-left:33.5%;
+      }
+      </style>
   </head>
   <body>
-    <div>
-      <div style="display: flex; flex-direction: row">
+    <div class="main_container">
+      <div class= "main_container_parent">
         <div>
           <input type="text" id="input1" placeholder="Write in here!" />
         </div>
         <div>
           <input type="text" id="input2" placeholder="Write in here!" />
         </div>
+          
       </div>
-      <button onclick="yes()">Click here</button>
-      <p id="output"></p>
+      <div class="button_js_container">
+    <button class="button_js" onclick="yes()">Click here</button>
+      <div style="display:flex;flex-direction:row;">
+        <p> Your answer is: 
+        <p id="output"> </p></p><p>  !</p>
+      </div>
+      </div>
     </div>
     <script src="web2.js"></script>
   </body>
