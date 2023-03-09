@@ -1,12 +1,8 @@
-// console.log("Live")
-
-
-
 //function to contain all codes
 function container() {
-// string to hold all strings;
+//strings;
 let a = "a5222", b = "Crust";
-// int to hold all integers;
+//int;
 let x = 7, y = 8, z = 9 ,num = 5 + 5;
   return { a, b, num, y, z, x };
   
