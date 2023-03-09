@@ -5,16 +5,22 @@ let a = "a5222", b = "Crust";
 //int;
 let x = 7, y = 8, z = 9 ,num = 5 + 5;
   return { a, b, num, y, z, x };
-  
+
+
+
 }
 
 const values = container();
+const web = document.getElementById('activity');
 
 function calculation() {
   while (values.a.length < values.y) {
     if (values.a.length >= 3) {
-      console.log(values.a, values.b + " hi " + values.num);
+      answer = values.a, values.b + " hi " + values.num;
+      console.log(answer);
       // console.log("size: " + values.string_container.length);
+      web.innerHTML = answer;
+      
       return 0;
     } else {
       values.a = "Verde";
