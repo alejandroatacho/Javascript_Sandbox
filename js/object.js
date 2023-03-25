@@ -22,9 +22,7 @@ function object_manual2()
         console.log(alien);
     }
     
-(function() {
-    if (true) {
-    object_manual();
-    object_manual2();
-    }
-    })();
+    (function() {
+        object_manual();
+        object_manual2();
+        })();
