@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>5/17/2023</title>
+    <style>
+        #traffic-light {
+            width: 100px;
+            height: 300px;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .light {
+            width: 80px;
+            height: 80px;
+            border: 1px solid black;
+            border-radius: 50%;
+            /* display: none; */
+            visibility: hidden;
+        }
+    </style>
 </head>
 <body>
-    
+    <h4>Change the traffic light:</h4>
+    <input id="touch_me_kek" type="text">
+
+    <div id="traffic-light">
+        <div id="color_1" class="light" style="background-color: green;"></div>
+        <div id="color_2" class="light" style="background-color: yellow;"></div>
+        <div id="color_3" class="light" style="background-color: red;"></div>
+    </div>
+
+<script src="../src/js/boolean.js"></script>
+
 </body>
 </html>
